@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d "{\"username\": \"$(openssl rand -hex 8)\", \"password\": \"$1\"}" http://localhost:4000/api/auth/register
